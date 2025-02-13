@@ -41,7 +41,7 @@ const footerConfig = {
     { href: "/terms", label: "Terms of Service" },
   ],
   copyright: {
-    text: "© 2024 GridShare",
+    text: "© 2025 GridShare",
     license: "All rights reserved",
   },
 };
