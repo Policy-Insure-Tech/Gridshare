@@ -3,6 +3,9 @@
 
 import { motion } from "framer-motion";
 import { StepCard } from "@/components/ui/step-card";
+import Step1 from "../../../public/lovable-uploads/Step 1.png"
+import Step2 from "../../../public/lovable-uploads/Step 2.png"
+import Step3 from "../../../public/lovable-uploads/Step 3.png"
 
 const steps = [
   {
@@ -11,7 +14,7 @@ const steps = [
     description: "Reserve solar you need to offset your monthly power bill from an active project. You get credits for the power produced from your reserved solar panels.",
     infoNote: "1 credit = ₹1 offset on power bill",
     // imageSrc: "/lovable-uploads/931c089e-cc0f-441a-a0e8-2d6e89119b5d.png",
-    imageSrc: "../../../public/lovable-uploads/Step 1.png",
+    imageSrc: Step1,
     bgColor: "bg-emerald-50",
   },
   {
@@ -19,7 +22,7 @@ const steps = [
     title: "Link Your Account",
     description: "Your GridShare account will monitor and store the credits generated daily. Add your billing details inside the account to use credits from your digital solar. Select from 70+ utility power providers across India available on our platform.",
     infoNote: "You can link multiple billers with your digital solar",
-    imageSrc: "../../../public/lovable-uploads/Step 2.png",
+    imageSrc: Step2,
     bgColor: "bg-blue-50",
   },
   {
@@ -27,7 +30,7 @@ const steps = [
     title: "Pay Bill",
     description: "Make bill payments through GridShare account to avail credits. You can fully offset your bills with credits and pay nothing, or at times when the power bill is larger than the credits you have, you can pay the balance through preferred payment methods.",
     infoNote: "Credits don't expire, any unused credits can be passed on to later months.",
-    imageSrc: "../../../public/lovable-uploads/Step 3.png",
+    imageSrc: Step3,
     bgColor: "bg-orange-50",
   },
 ];
